@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Asif Ahmed</title>
+
+  <!-- css for mobile --> 
+  <link rel="stylesheet" href="style.css">
+
+  <!-- css for desktop -->
+  <link rel="stylesheet" href="Desktop.css" media="screen and (min-width:992px)">
+
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat&family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- navbar starts here  -->
+  <div class="navbar">
+      
+    <div class="nav-logo col-2">
+      <img src="Images/log.jpg" alt="logo">
+    </div>
+    <div class="nav-heading col-4">
+      <h1>Asif Ahmed</h1>
+    </div>
+    <div class="navbar-menu col-6">
+      <a href="#">Home</a>
+      <a href="#about-me-id">About Me</a>          
+      <a href="#">Skills</a>
+      <a href="#">Contact</a>
+    </div>
+    
+  </div>
+<!-- navbar ends here  -->
+
+<!-- Profile Start here  -->
+  <div class="profile">
+    <img class="top-weather-logo" src="Images/log2.jpg" alt="weather-logo">
+    <div class="profile-desc">
+      <h1>I am a Web Developer</h1>
+      <p>Hi! My name is Asif Ahmed. Welcome to my personal profile that I've designed to showcase my skill and expertise that I've accumulated over the year. </p>
+    </div>
+    <img class="bottom-weather-logo" src="Images/log2.jpg" alt="weather-logo">
+</div>
+<!-- Profile ends here  -->
+
+<!-- about me Starts here  -->
+<div class="about-me" id="about-me-id">
+  <h2>About ME</h2>
+  <hr class="dotted-hr">
+  <div class="aboutme-image col-6">
+    <img src="Images/3.jpg" alt="Asif-Ahmed">
+  </div>
+  <div class="aboutme-desc col-6">
+    <p>I like to call myself "a Noob Web designer"</p>
+
+    <hr class="aboutme-hr">
+    <p>Name: Asif Ahmed</p>
+    <hr class="aboutme-hr">
+    <p>Address: Dhaka, Bangladesh</p>
+    <hr class="aboutme-hr">
+    <p>Phone: <a href="tel:+8801794903234">01794903234</a></p>
+    <hr class="aboutme-hr">
+    <p>Email: <a href="emailto:asifbin8@gmail.com"></a>asifbin8@gmail.com</p>
+    <hr class="aboutme-hr">
+    <p>Website:<a href="#" target="blank"></a></p>
+    <hr class="aboutme-hr">
+    <p>
+      <a href="#" target="blank" download="">
+        <button class="cv-button">Download CV</button>
+      </a>
+    </p>
+  </div>
+</div>
+
+<!-- about me ends here  -->
+
+<!-- profesional experience starts here  -->
+<div class="profesional-experience">
+
+  <div class="work-experience col-4">
+    <div class="card">
+      <div class="card-icon">
+        <img class="round-img" src="Images/work2.png" alt="work icon">
+      </div>
+      <div class="card-title">
+        <h2>WORK EXPERIENCE</h2>
+
+      </div>
+      <div class="card-desc">
+        <ol>
+          <li>
+            <strong>Intern Software Engineer at "Innovabd.tech"</strong>
+            <br><br>
+            02/05/2021-05/08/2021<br><br>
+            <a href="https:/www.innovabd.tech" target="blank">https:/www.innovabd.tech</a>
+
+            
+          </li>
+        </ol>
+
+      </div>
+    </div>
+
+  </div>
+  <div class="education col-4">
+    <div class="card">
+      <div class="card-icon">
+        <img class="round-img" src="Images/Edu.png" alt="Education icon">
+      </div>
+      <div class="card-title">
+        <h2>Education</h2>
+
+      </div>
+      <div class="card-desc">
+        <ol>
+          <li>
+            <strong>B.Sc. in Software Engineering</strong>
+            <br>
+            2018-2021<br>
+            American International University-Bangladesh(AIUB)
+            <br>
+            <a href="https:/www.aiub.edu" target="blank">https://www.aiub.edu/</a>
+
+            
+          </li><br>
+          <hr>
+          <li>
+            <strong>HSC in Science</strong>
+            <br>
+            2014-2016<br>
+            Cantonment Public School & College BUSMS, Parbottipur, Dinajpur
+            <br>
+            <a href="https:/www.cpscbusms.edu.bd/" target="blank">https://www.cpscbusms.edu.bd/</a><br>
+            Result: GPA(5.00)
+
+            
+          </li><br>
+          <hr>
+          <li>
+            <strong>SSC in Science</strong>
+            <br>
+            2009-2014<br>
+            Nekmorad Allimuddin Govt. High School
+            <br>
+            <a href="https:/www.naghst.edu.bd/" target="blank">https://naghst.edu.bd/</a><br>
+            Result: GPA(5.00)
+
+          </li>
+        </ol>
+
+      </div>
+
+  </div>
+  <div class="skills col-4">
+
+  </div>
+
+</div>
+<!-- profesional experience end here  -->
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
+</html>
