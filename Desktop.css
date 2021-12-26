@@ -125,7 +125,10 @@
 .footer-menu a{
   display: inline;
   margin: 10px;
+}
 
+.footer-desc{
+  bottom: 20px;
 }
 
 /* footer design ends here  */
