@@ -300,7 +300,7 @@ p{
 }
 @keyframes boot{
   to{
-    width: 50%;
+    width: 70%;
   }
 
 }
@@ -311,7 +311,7 @@ p{
 }
 @keyframes java{
   to{
-    width: 30%;
+    width: 70%;
   }
 
 }
